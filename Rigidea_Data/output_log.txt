@@ -1,0 +1,32 @@
+Mono path[0] = 'D:/DuAn/Rigid/Rigidea_Data/Managed'
+Mono path[1] = 'D:/DuAn/Rigid/Rigidea_Data/Mono'
+Mono config path = 'D:/DuAn/Rigid/Rigidea_Data/Mono/etc'
+PlayerConnection initialized from D:/DuAn/Rigid/Rigidea_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55240
+Multi-casting "[IP] 192.168.1.55 [Port] 55240 [Flags] 3 [Guid] 3664965643 [EditorId] 923787915 [Version] 1048832 [Id] WindowsPlayer(Vanphuc) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.1.55:55240]...
+Timed out. Continuing without host connection.
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56643
+PlayerConnection already initialized - listening to [192.168.1.55:55240]
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 520M (ID=0x1050)
+    Vendor:   NVIDIA
+    VRAM:     971 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\DuAn\Rigid\Rigidea_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\DuAn\Rigid\Rigidea_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\DuAn\Rigid\Rigidea_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\DuAn\Rigid\Rigidea_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\DuAn\Rigid\Rigidea_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\DuAn\Rigid\Rigidea_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\DuAn\Rigid\Rigidea_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\DuAn\Rigid\Rigidea_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\DuAn\Rigid\Rigidea_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\DuAn\Rigid\Rigidea_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.171 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.

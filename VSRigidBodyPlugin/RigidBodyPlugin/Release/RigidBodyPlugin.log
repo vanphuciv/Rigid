@@ -1,0 +1,31 @@
+﻿Build started 7/31/2015 12:09:46.
+     1>Project "C:\Users\Phuc\Desktop\CS248\Assignment\03\assignment3N\assignment3\VSRigidBodyPlugin\RigidBodyPlugin\RigidBodyPlugin.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RIGIDBODYPLUGIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt cs248_simulation_rigid_body.cpp matvec.cpp rigid_body.cpp
+         cs248_simulation_rigid_body.cpp
+     1>cs248_simulation_rigid_body.cpp(31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>cs248_simulation_rigid_body.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>cs248_simulation_rigid_body.cpp(33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>cs248_simulation_rigid_body.cpp(34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>cs248_simulation_rigid_body.cpp(35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>cs248_simulation_rigid_body.cpp(36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>cs248_simulation_rigid_body.cpp(37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         matvec.cpp
+     1>matvec.cpp(603): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>matvec.cpp(841): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         rigid_body.cpp
+     1>rigid_body.cpp(12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>rigid_body.cpp(60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Phuc\Desktop\CS248\Assignment\03\assignment3N\assignment3\VSRigidBodyPlugin\Release\RigidBodyPlugin.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Phuc\Desktop\CS248\Assignment\03\assignment3N\assignment3\VSRigidBodyPlugin\Release\RigidBodyPlugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Phuc\Desktop\CS248\Assignment\03\assignment3N\assignment3\VSRigidBodyPlugin\Release\RigidBodyPlugin.lib" /MACHINE:X86 /SAFESEH /DLL Release\cs248_simulation_rigid_body.obj
+         Release\matvec.obj
+         Release\rigid_body.obj
+            Creating library C:\Users\Phuc\Desktop\CS248\Assignment\03\assignment3N\assignment3\VSRigidBodyPlugin\Release\RigidBodyPlugin.lib and object C:\Users\Phuc\Desktop\CS248\Assignment\03\assignment3N\assignment3\VSRigidBodyPlugin\Release\RigidBodyPlugin.exp
+         Generating code
+         Finished generating code
+     1>LINK : fatal error LNK1207: incompatible PDB format in 'C:\Users\Phuc\Desktop\CS248\Assignment\03\assignment3N\assignment3\VSRigidBodyPlugin\Release\RigidBodyPlugin.pdb'; delete and rebuild
+     1>Done Building Project "C:\Users\Phuc\Desktop\CS248\Assignment\03\assignment3N\assignment3\VSRigidBodyPlugin\RigidBodyPlugin\RigidBodyPlugin.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.57
